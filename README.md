@@ -1,7 +1,7 @@
 # Containeralized Server of llama.cpp
 This repository contains a containerized server for running the llama.cpp [https://github.com/ggerganov/llama.cpp] application.
 
-scripts/LlamacppLLM.py is a langchain integration. 
+`scripts/LlamacppLLM.py` is a langchain integration. 
 
 ## Usage
 ```
