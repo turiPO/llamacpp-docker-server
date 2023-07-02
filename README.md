@@ -1,4 +1,4 @@
-# Containeralized Server of llama.cpp
+# Containeralized Server of `llama.cpp`
 Containerized server for **@ggerganov's** [`llama.cpp`](https://github.com/ggerganov/llama.cpp) library.
 `scripts/LlamacppLLM.py` is a langchain integration. 
 
