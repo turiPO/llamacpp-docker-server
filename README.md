@@ -3,7 +3,7 @@ Containerized server for **@ggerganov's** [`llama.cpp`](https://github.com/ggerg
 `scripts/LlamacppLLM.py` is a langchain integration. 
 
 ## Why not binding?
-llama.cpp developement moves extremely fast and binding projects just don't keep up with the updates.
+`llama.cpp` developement moves extremely fast and binding projects just don't keep up with the updates.
 That means you can’t have the most optimized models.
 
 ## Usage
@@ -16,7 +16,7 @@ Example for downloading a model
 ```
 mkdir models
 cd models
-RUN wget https://huggingface.co/TheBloke/LLaMa-13B-GGML/resolve/main/llama-13b.ggmlv3.q2_K.bin
+wget https://huggingface.co/TheBloke/LLaMa-13B-GGML/resolve/main/llama-13b.ggmlv3.q2_K.bin
 ```
 
 Note: The above instructions assume you have Docker installed on your machine. Make sure to replace `/path/to/models` with the actual path to the directory where you have downloaded the models.
