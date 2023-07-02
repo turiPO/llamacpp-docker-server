@@ -1,7 +1,10 @@
 # Containeralized Server of llama.cpp
-This repository contains a containerized server for running the llama.cpp [https://github.com/ggerganov/llama.cpp] application.
+Containerized server for **@ggerganov's** [`llama.cpp`](https://github.com/ggerganov/llama.cpp) library.
+`scripts/LlamacppLLM.py` is a long-chain integration. 
 
-`scripts/LlamacppLLM.py` is a langchain integration. 
+## Why not binding?
+llama.cpp developement moves extremely fast and binding projects just don't keep up with the updates.
+That means you can’t have the most optimized models.
 
 ## Usage
 ```
