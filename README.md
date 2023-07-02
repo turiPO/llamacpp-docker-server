@@ -1,6 +1,6 @@
 # Containeralized Server of llama.cpp
 Containerized server for **@ggerganov's** [`llama.cpp`](https://github.com/ggerganov/llama.cpp) library.
-`scripts/LlamacppLLM.py` is a long-chain integration. 
+`scripts/LlamacppLLM.py` is a langchain integration. 
 
 ## Why not binding?
 llama.cpp developement moves extremely fast and binding projects just don't keep up with the updates.
