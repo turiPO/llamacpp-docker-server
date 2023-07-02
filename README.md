@@ -1,5 +1,7 @@
 # Containeralized Server of llama.cpp
 Simple as that.
+
+## Usage
 Replace `/path/to/models` below with the actual path where you downloaded the models.
 ```
 docker build -t llamacpp-server .
